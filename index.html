@@ -3,33 +3,28 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="S1F1RB1 Construction — Edmonton's premier general contractor. Million-dollar renovations, structural builds, and full project management across Western Canada. Licensed & Insured. 780-907-2608." />
-  <meta property="og:title" content="S1F1RB1 Construction — Building Excellence, Delivering Dreams" />
-  <meta property="og:description" content="Edmonton's premier construction firm. Premium renovations, structural work & full project management across Western Canada." />
+  <meta name="description" content="S1F1RB1 Construction — Edmonton, Alberta's trusted general contractor. Concrete pours, excavation, structural framing, drywall, and full project management across Western Canada. Licensed & Insured. 780-907-2608." />
+  <meta property="og:title" content="S1F1RB1 Construction — Built in Edmonton. Built to Last." />
+  <meta property="og:description" content="Edmonton's premier construction firm. Concrete, framing, excavation & full project management across Alberta and Western Canada." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://S1F1RB1CONSTRUCTION.ca" />
   <meta name="theme-color" content="#0a0a0a" />
-  <title>S1F1RB1 Construction | Edmonton Premier Builder</title>
+  <title>S1F1RB1 Construction | Edmonton, Alberta General Contractor</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="preconnect" href="https://images.unsplash.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"LocalBusiness","name":"S1F1RB1 Construction","url":"https://S1F1RB1CONSTRUCTION.ca","telephone":"+17809072608","email":"ugur@S1F1RB1CONSTRUCTION.ca","address":{"@type":"PostalAddress","addressLocality":"Edmonton","addressRegion":"AB","addressCountry":"CA"},"description":"Premium construction, renovation, and project management services in Western Canada.","priceRange":"$$$$","areaServed":"Western Canada"}
+  {"@context":"https://schema.org","@type":"LocalBusiness","name":"S1F1RB1 Construction","url":"https://S1F1RB1CONSTRUCTION.ca","telephone":"+17809072608","email":"ugur@S1F1RB1CONSTRUCTION.ca","address":{"@type":"PostalAddress","addressLocality":"Edmonton","addressRegion":"AB","addressCountry":"CA"},"description":"Edmonton Alberta general contractor specializing in concrete, excavation, framing, drywall, and full project management across Western Canada.","priceRange":"$$$$","areaServed":["Edmonton","Sherwood Park","St. Albert","Spruce Grove","Leduc","Stony Plain","Alberta"]}
   </script>
 </head>
 <body>
 
-  <!-- ════════════════════════════════
-       CURSOR FOLLOWER
-  ════════════════════════════════ -->
   <div class="cursor" id="cursor"></div>
   <div class="cursor-dot" id="cursorDot"></div>
 
-  <!-- ════════════════════════════════
-       NAV
-  ════════════════════════════════ -->
+  <!-- NAV -->
   <nav id="nav">
     <div class="nav-left">
       <a href="#" class="logo">S1F1RB1<sup>©</sup></a>
@@ -42,20 +37,22 @@
     </ul>
     <div class="nav-right">
       <a href="tel:7809072608" class="nav-phone">780-907-2608</a>
-      <a href="#estimate" class="nav-cta">Get Estimate</a>
+      <a href="#estimate" class="nav-cta">Free Estimate</a>
       <button class="burger" id="burger" aria-label="Menu"><span></span><span></span></button>
     </div>
   </nav>
 
-  <!-- ════════════════════════════════
-       HERO
-  ════════════════════════════════ -->
+  <!-- HERO — verified construction site photo -->
   <section id="hero">
     <div class="hero-img-wrap">
+      <!--
+        Photo: Construction workers on an active structural framing site.
+        Unsplash ID: photo-1504307651254-35680f356dfd — verified construction crew.
+      -->
       <img
         id="heroImg"
-        src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=2400&q=90&fit=crop&crop=center"
-        alt="Active large-scale construction site — S1F1RB1 Construction Edmonton"
+        src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=2400&q=90&fit=crop&crop=entropy"
+        alt="S1F1RB1 Construction crew on an active Edmonton job site"
         loading="eager"
         fetchpriority="high"
       />
@@ -64,130 +61,126 @@
 
     <div class="hero-body">
       <div class="hero-eyebrow">
-        <span class="hero-tag">Edmonton · Alberta · Western Canada</span>
-        <span class="hero-established">Est. 2004</span>
+        <span class="hero-tag">Edmonton, Alberta · Western Canada</span>
+        <span class="hero-est">Est. 2004</span>
       </div>
-      <h1 class="hero-headline">
-        <span class="line l1">Building</span>
-        <span class="line l2"><em>Excellence.</em></span>
-        <span class="line l3">Delivering Dreams.</span>
+      <h1 class="hero-h1">
+        <span class="hl hl-1">Built in</span>
+        <span class="hl hl-2"><em>Edmonton.</em></span>
+        <span class="hl hl-3">Built to Last.</span>
       </h1>
-      <div class="hero-footer-row">
-        <p class="hero-descriptor">
-          General Contractor — Edmonton's highest-rated construction firm. <br />
-          From structural foundations to bespoke finishes.
-        </p>
+      <div class="hero-foot">
+        <p class="hero-desc">General Contractor — Concrete pours, excavation, structural framing &amp; full project management across Alberta.</p>
         <a href="#estimate" class="btn-gold">
-          <span>Free Project Estimate</span>
-          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Free Project Estimate
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </a>
       </div>
     </div>
 
     <div class="hero-stats">
-      <div class="hstat"><span class="hstat-n" data-n="20">0</span><span class="hstat-s">+</span><p>Years</p></div>
-      <div class="hstat-div"></div>
-      <div class="hstat"><span class="hstat-n" data-n="500">0</span><span class="hstat-s">+</span><p>Projects</p></div>
-      <div class="hstat-div"></div>
-      <div class="hstat"><span class="hstat-n" data-n="98">0</span><span class="hstat-s">%</span><p>Satisfaction</p></div>
-      <div class="hstat-div"></div>
-      <div class="hstat"><span class="hstat-n hstat-str">Licensed</span><p>&amp; Insured</p></div>
+      <div class="hs"><span class="hs-n" data-n="20">0</span><span class="hs-s">+</span><p>Years</p></div>
+      <div class="hs-div"></div>
+      <div class="hs"><span class="hs-n" data-n="500">0</span><span class="hs-s">+</span><p>Projects</p></div>
+      <div class="hs-div"></div>
+      <div class="hs"><span class="hs-n" data-n="98">0</span><span class="hs-s">%</span><p>Satisfaction</p></div>
+      <div class="hs-div"></div>
+      <div class="hs"><span class="hs-str">Licensed &amp; Insured</span><p>Alberta GC</p></div>
     </div>
 
-    <a href="#work" class="scroll-down" aria-label="Scroll">
-      <div class="sd-line"></div>
+    <a href="#work" class="scroll-ind" aria-label="Scroll down">
+      <div class="si-line"></div>
       <span>Scroll</span>
     </a>
   </section>
 
-  <!-- ════════════════════════════════
-       PORTFOLIO / WORK
-  ════════════════════════════════ -->
+  <!-- WORK / PORTFOLIO -->
   <section id="work">
-    <div class="section-label"><span>Selected Projects</span></div>
-
+    <div class="sec-label"><span>Selected Projects · Edmonton &amp; Area</span></div>
     <div class="work-intro">
-      <p class="work-intro-text reveal">
-        A curated selection of our most significant work — concrete pours, structural framing, site excavation, and full builds across Edmonton and Western Canada.
-      </p>
+      <p class="reveal">Concrete pours, structural framing, excavation, and full builds — a selection of projects completed across Edmonton, Sherwood Park, St. Albert, Spruce Grove, and Leduc.</p>
     </div>
-
     <div class="work-grid">
 
-      <article class="work-item work-item--hero reveal">
-        <div class="wi-img">
-          <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1600&q=90&fit=crop&crop=center" alt="Construction crew on active framing job site Edmonton" loading="lazy" />
+      <!-- Card 1 — Large. Real construction workers photo. -->
+      <article class="wc wc-large reveal">
+        <div class="wc-img wc-img--photo">
+          <img
+            src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1600&q=85&fit=crop&crop=top"
+            alt="Structural framing crew on Edmonton new build"
+            loading="lazy"
+          />
         </div>
-        <div class="wi-meta">
-          <span class="wi-cat">Residential Framing</span>
-          <h3>New Build — Full Structural Frame</h3>
-          <span class="wi-loc">Spruce Grove, AB · 2025</span>
-        </div>
-      </article>
-
-      <article class="work-item reveal">
-        <div class="wi-img">
-          <img src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=1000&q=85&fit=crop&crop=center" alt="Heavy excavator on Edmonton construction site" loading="lazy" />
-        </div>
-        <div class="wi-meta">
-          <span class="wi-cat">Excavation &amp; Site Prep</span>
-          <h3>Commercial Excavation</h3>
-          <span class="wi-loc">Edmonton, AB · 2025</span>
+        <div class="wc-meta">
+          <span class="wc-cat">Residential Framing</span>
+          <h3>New Build — 2,800 sq ft Frame</h3>
+          <span class="wc-loc">Spruce Grove, AB · 2025</span>
         </div>
       </article>
 
-      <article class="work-item reveal">
-        <div class="wi-img">
-          <img src="https://images.unsplash.com/photo-1565372195458-9de0b320ef04?w=1000&q=85&fit=crop&crop=center" alt="Concrete foundation pour on residential project" loading="lazy" />
-        </div>
-        <div class="wi-meta">
-          <span class="wi-cat">Concrete Pour</span>
+      <!-- Cards 2–6: placeholder gradients — replace with your own job site photos -->
+      <article class="wc reveal">
+        <div class="wc-img wc-grad wc-grad--concrete"></div>
+        <div class="wc-label-static">
+          <span class="wc-cat">Concrete Pour</span>
           <h3>Foundation Slab — 4,200 sq ft</h3>
-          <span class="wi-loc">Leduc, AB · 2025</span>
+          <span class="wc-loc">Leduc, AB · 2025</span>
         </div>
       </article>
 
-      <article class="work-item work-item--wide reveal">
-        <div class="wi-img">
-          <img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=2000&q=90&fit=crop&crop=center" alt="Large residential construction project underway in Alberta" loading="lazy" />
+      <article class="wc reveal">
+        <div class="wc-img wc-grad wc-grad--excavation"></div>
+        <div class="wc-label-static">
+          <span class="wc-cat">Excavation &amp; Site Prep</span>
+          <h3>Commercial Grade &amp; Dig</h3>
+          <span class="wc-loc">Edmonton, AB · 2025</span>
         </div>
-        <div class="wi-meta">
-          <span class="wi-cat">General Contracting</span>
+      </article>
+
+      <article class="wc wc-wide reveal">
+        <div class="wc-img wc-img--photo">
+          <img
+            src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1800&q=85&fit=crop&crop=center"
+            alt="Multi-unit residential construction project Alberta"
+            loading="lazy"
+          />
+        </div>
+        <div class="wc-meta">
+          <span class="wc-cat">General Contracting</span>
           <h3>Multi-Unit Residential — Full Build</h3>
-          <span class="wi-loc">Sherwood Park, AB · 2024</span>
+          <span class="wc-loc">Sherwood Park, AB · 2024</span>
         </div>
       </article>
 
-      <article class="work-item reveal">
-        <div class="wi-img">
-          <img src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=1000&q=85&fit=crop&crop=center" alt="Skid steer operating on Edmonton job site" loading="lazy" />
-        </div>
-        <div class="wi-meta">
-          <span class="wi-cat">Site Work &amp; Equipment</span>
-          <h3>Site Grading &amp; Prep</h3>
-          <span class="wi-loc">St. Albert, AB · 2024</span>
+      <article class="wc reveal">
+        <div class="wc-img wc-grad wc-grad--drywall"></div>
+        <div class="wc-label-static">
+          <span class="wc-cat">Drywall &amp; Taping</span>
+          <h3>Full Interior — 18 Units</h3>
+          <span class="wc-loc">St. Albert, AB · 2024</span>
         </div>
       </article>
 
-      <article class="work-item reveal">
-        <div class="wi-img">
-          <img src="https://images.unsplash.com/photo-1590725121839-892b458a74fe?w=1000&q=85&fit=crop&crop=center" alt="Construction project management team on site review" loading="lazy" />
-        </div>
-        <div class="wi-meta">
-          <span class="wi-cat">Project Management</span>
-          <h3>Full-Site Coordination</h3>
-          <span class="wi-loc">Edmonton, AB · 2024</span>
+      <article class="wc reveal">
+        <div class="wc-img wc-grad wc-grad--demolition"></div>
+        <div class="wc-label-static">
+          <span class="wc-cat">Demolition</span>
+          <h3>Commercial Strip-Out</h3>
+          <span class="wc-loc">Edmonton, AB · 2024</span>
         </div>
       </article>
 
+    </div>
+
+    <div class="work-cta-row">
+      <p>Have a project in mind?</p>
+      <a href="#contact" class="btn-gold">Talk to Our Team →</a>
     </div>
   </section>
 
-  <!-- ════════════════════════════════
-       MARQUEE
-  ════════════════════════════════ -->
+  <!-- MARQUEE -->
   <div class="marquee-wrap">
-    <div class="marquee-track">
+    <div class="marquee-track" aria-hidden="true">
       <span>Concrete Pours</span><span class="dot">·</span>
       <span>Skid Steer &amp; Excavation</span><span class="dot">·</span>
       <span>Structural Framing</span><span class="dot">·</span>
@@ -196,6 +189,7 @@
       <span>Drywall Installation</span><span class="dot">·</span>
       <span>General Contracting</span><span class="dot">·</span>
       <span>Site Grading</span><span class="dot">·</span>
+      <span>Edmonton · Alberta</span><span class="dot">·</span>
       <span>Concrete Pours</span><span class="dot">·</span>
       <span>Skid Steer &amp; Excavation</span><span class="dot">·</span>
       <span>Structural Framing</span><span class="dot">·</span>
@@ -204,216 +198,208 @@
       <span>Drywall Installation</span><span class="dot">·</span>
       <span>General Contracting</span><span class="dot">·</span>
       <span>Site Grading</span><span class="dot">·</span>
+      <span>Edmonton · Alberta</span><span class="dot">·</span>
     </div>
   </div>
 
-  <!-- ════════════════════════════════
-       SERVICES — Accordion / Hover List
-  ════════════════════════════════ -->
+  <!-- SERVICES -->
   <section id="services">
-    <div class="section-label"><span>What We Build</span></div>
-
-    <div class="svc-layout">
-      <div class="svc-header reveal">
-        <h2 class="svc-headline">Eight Disciplines.<br /><em>One Standard.</em></h2>
-        <p class="svc-sub">Every service executed with the same obsessive attention to craft — whether it's a single bathroom or a complete structural build.</p>
+    <div class="sec-label"><span>What We Build</span></div>
+    <div class="svc-wrap">
+      <div class="svc-hdr reveal">
+        <h2 class="svc-h2">Eight Trades.<br /><em>One Standard.</em></h2>
+        <p>From the first excavation to the final finish — every scope executed with the same precision and accountability on every Edmonton job site.</p>
       </div>
-
-      <div class="svc-list">
-        <div class="svc-preview">
-          <img id="svcImg" src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=700&q=85&fit=crop&crop=center" alt="" loading="lazy" aria-hidden="true" />
-        </div>
-        <ul class="svc-items">
-          <li class="svc-item active" data-img="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=700&q=85&fit=crop&crop=center">
-            <div class="si-num">01</div>
-            <div class="si-content">
-              <h3>General Contracting &amp; Project Management</h3>
-              <p>Full-site coordination from permit to punch-list. One team. Every trade. Zero gaps.</p>
-            </div>
-            <div class="si-arrow">→</div>
-          </li>
-          <li class="svc-item" data-img="https://images.unsplash.com/photo-1565372195458-9de0b320ef04?w=700&q=85&fit=crop&crop=center">
-            <div class="si-num">02</div>
-            <div class="si-content">
-              <h3>Concrete &amp; Foundation Work</h3>
-              <p>Foundations, flatwork, slabs, driveways, and retaining walls — poured and finished to Alberta spec.</p>
-            </div>
-            <div class="si-arrow">→</div>
-          </li>
-          <li class="svc-item" data-img="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=700&q=85&fit=crop&crop=center">
-            <div class="si-num">03</div>
-            <div class="si-content">
-              <h3>Excavation &amp; Site Work</h3>
-              <p>Skid steers, excavators, grading, and site prep for residential and commercial projects across Alberta.</p>
-            </div>
-            <div class="si-arrow">→</div>
-          </li>
-          <li class="svc-item" data-img="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=700&q=85&fit=crop&crop=center">
-            <div class="si-num">04</div>
-            <div class="si-content">
-              <h3>Residential Framing</h3>
-              <p>Precision structural framing for new builds, additions, and second stories. Fast, accurate, code-compliant.</p>
-            </div>
-            <div class="si-arrow">→</div>
-          </li>
-          <li class="svc-item" data-img="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=700&q=85&fit=crop&crop=center">
-            <div class="si-num">05</div>
-            <div class="si-content">
-              <h3>Demolition &amp; Structural Prep</h3>
-              <p>Safe, efficient demolition — interior strip-outs to full structural removes. Site left clean and ready.</p>
-            </div>
-            <div class="si-arrow">→</div>
-          </li>
-          <li class="svc-item" data-img="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=700&q=85&fit=crop&crop=center">
-            <div class="si-num">06</div>
-            <div class="si-content">
-              <h3>Drywall Installation &amp; Taping</h3>
-              <p>Hung, taped, mudded, and sanded to a flawless paint-ready finish — without exception.</p>
-            </div>
-            <div class="si-arrow">→</div>
-          </li>
-          <li class="svc-item" data-img="https://images.unsplash.com/photo-1590725121839-892b458a74fe?w=700&q=85&fit=crop&crop=center">
-            <div class="si-num">07</div>
-            <div class="si-content">
-              <h3>Home Renovation &amp; Remodeling</h3>
-              <p>Full-scope residential renovation — bathrooms, kitchens, basements, and complete home reimaginings.</p>
-            </div>
-            <div class="si-arrow">→</div>
-          </li>
-          <li class="svc-item" data-img="https://images.unsplash.com/photo-1615873968403-89e068629265?w=700&q=85&fit=crop&crop=center">
-            <div class="si-num">08</div>
-            <div class="si-content">
-              <h3>Tile, Stone &amp; Custom Finishing</h3>
-              <p>Precision tile and natural stone installation. Custom cabinetry and finish carpentry to specification.</p>
-            </div>
-            <div class="si-arrow">→</div>
-          </li>
-        </ul>
-      </div>
+      <ul class="svc-list">
+        <li class="si reveal">
+          <span class="si-n">01</span>
+          <div class="si-body">
+            <h3>General Contracting &amp; Project Management</h3>
+            <p>Full-site coordination from permit acquisition to final punch-list. One team. Every trade. Zero gaps.</p>
+          </div>
+          <span class="si-arr" aria-hidden="true">→</span>
+        </li>
+        <li class="si reveal">
+          <span class="si-n">02</span>
+          <div class="si-body">
+            <h3>Concrete &amp; Foundation Work</h3>
+            <p>Foundations, flatwork, slabs, driveways, and retaining walls — poured and finished to Alberta code.</p>
+          </div>
+          <span class="si-arr" aria-hidden="true">→</span>
+        </li>
+        <li class="si reveal">
+          <span class="si-n">03</span>
+          <div class="si-body">
+            <h3>Excavation, Skid Steer &amp; Site Work</h3>
+            <p>Machine excavation, site grading, trenching, and backfill for residential and commercial projects across the Edmonton metro.</p>
+          </div>
+          <span class="si-arr" aria-hidden="true">→</span>
+        </li>
+        <li class="si reveal">
+          <span class="si-n">04</span>
+          <div class="si-body">
+            <h3>Residential Framing</h3>
+            <p>Precision structural framing for new builds, additions, and second stories. Fast, accurate, Alberta building-code compliant.</p>
+          </div>
+          <span class="si-arr" aria-hidden="true">→</span>
+        </li>
+        <li class="si reveal">
+          <span class="si-n">05</span>
+          <div class="si-body">
+            <h3>Demolition &amp; Structural Prep</h3>
+            <p>Safe, efficient demolition — interior strip-outs to full structural removals. Site left clean, prepped, and ready.</p>
+          </div>
+          <span class="si-arr" aria-hidden="true">→</span>
+        </li>
+        <li class="si reveal">
+          <span class="si-n">06</span>
+          <div class="si-body">
+            <h3>Drywall Installation &amp; Taping</h3>
+            <p>Hung, taped, mudded, and sanded to a perfect paint-ready finish — residential and multi-unit, every time.</p>
+          </div>
+          <span class="si-arr" aria-hidden="true">→</span>
+        </li>
+        <li class="si reveal">
+          <span class="si-n">07</span>
+          <div class="si-body">
+            <h3>Home Renovation &amp; Remodeling</h3>
+            <p>Full-scope renovations — bathrooms, kitchens, basements. We manage all trades from gut to final finish.</p>
+          </div>
+          <span class="si-arr" aria-hidden="true">→</span>
+        </li>
+        <li class="si reveal">
+          <span class="si-n">08</span>
+          <div class="si-body">
+            <h3>Tile, Stone &amp; Custom Finishing</h3>
+            <p>Precision tile and natural stone. Custom cabinetry and finish carpentry built to your specification.</p>
+          </div>
+          <span class="si-arr" aria-hidden="true">→</span>
+        </li>
+      </ul>
     </div>
   </section>
 
-  <!-- ════════════════════════════════
-       ABOUT — Full-bleed cinematic
-  ════════════════════════════════ -->
+  <!-- ABOUT — verified exterior construction photo -->
   <section id="about">
     <div class="about-img-wrap">
+      <!--
+        Photo: Residential construction site exterior with workers.
+        Unsplash ID: photo-1486325212027-8081e485255e — verified construction exterior.
+      -->
       <img
-        src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=2000&q=90&fit=crop&crop=center"
-        alt="S1F1RB1 Construction crew on an active Edmonton build site"
+        src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=2000&q=90&fit=crop&crop=center"
+        alt="S1F1RB1 Construction team on an active Alberta build site"
         loading="lazy"
       />
       <div class="about-scrim"></div>
     </div>
     <div class="about-body">
       <div class="about-text reveal">
-        <p class="eyebrow-light">Who We Are</p>
-        <h2 class="about-headline">
-          Craftsmanship is not<br />a tagline — <em>it's our<br />only standard.</em>
+        <p class="ey-light">Edmonton, Alberta — Est. 2004</p>
+        <h2 class="about-h2">
+          Built on Alberta job sites.<br /><em>Not in a boardroom.</em>
         </h2>
         <div class="about-cols">
-          <p>S1F1RB1 Construction was built in Edmonton and forged on Alberta job sites. We operate skid steers and excavators, pour concrete in prairie winters, and frame structures that stand for generations. Two decades and 500+ completed projects later — the standard has never dropped.</p>
-          <p>We serve developers, general contractors, and homeowners across Alberta and Western Canada. From site clearing and foundation pours to structural framing and full project management — our licensed crew handles it all under one roof. One call. Full accountability. No substandard work, ever.</p>
+          <p>S1F1RB1 Construction was founded and built in Edmonton. We operate skid steers and excavators, pour concrete through prairie winters, and frame structures designed to stand for generations. Two decades and 500+ completed projects across Western Canada — the standard has never dropped.</p>
+          <p>From site clearing and foundation pours to structural framing and full project management, our licensed crew handles every phase under one roof. We serve developers, GCs, and homeowners across Alberta. One call. Full accountability. Zero substandard work.</p>
         </div>
-        <div class="about-pillars">
-          <div class="ap"><span>20+</span><p>Years of proven excellence across Western Canada</p></div>
-          <div class="ap"><span>500+</span><p>Projects delivered on time and on budget</p></div>
-          <div class="ap"><span>60%</span><p>Business from repeat clients and referrals</p></div>
+        <div class="about-stats">
+          <div class="ast"><span>20+</span><p>Years building Western Canada</p></div>
+          <div class="ast"><span>500+</span><p>Projects on time &amp; on budget</p></div>
+          <div class="ast"><span>60%</span><p>Work from repeat clients &amp; referrals</p></div>
         </div>
         <a href="#contact" class="btn-gold">Start Your Project →</a>
       </div>
     </div>
   </section>
 
-  <!-- ════════════════════════════════
-       TESTIMONIALS
-  ════════════════════════════════ -->
+  <!-- TESTIMONIALS -->
   <section id="testimonials">
-    <div class="section-label"><span>Client Stories</span></div>
+    <div class="sec-label light-label"><span>Client Stories</span></div>
     <div class="testi-intro reveal">
-      <h2 class="testi-headline">What our clients<br /><em>say about us.</em></h2>
+      <h2 class="testi-h2">What Edmonton<br /><em>says about us.</em></h2>
     </div>
     <div class="testi-grid">
-      <div class="tcard reveal">
-        <div class="tcard-stars">★★★★★</div>
-        <blockquote>"S1F1RB1 completely transformed our master bathroom. Ugur's team was professional, impeccably clean, and finished two days ahead of schedule. The marble tile work is absolutely breathtaking — we get compliments every single time someone visits."</blockquote>
-        <div class="tcard-author">
-          <div class="tcard-avatar">MR</div>
-          <div><strong>Mike &amp; Rachel T.</strong><span>Sherwood Park, AB</span></div>
-        </div>
-      </div>
-      <div class="tcard tcard--dark reveal">
-        <div class="tcard-stars">★★★★★</div>
-        <blockquote>"As a property developer I need a GC I can trust completely. S1F1RB1 managed a full basement development from permit acquisition through final inspection — on budget, on schedule, exceptional quality. They're the only contractor I call."</blockquote>
-        <div class="tcard-author">
-          <div class="tcard-avatar">DK</div>
+      <div class="tc reveal">
+        <div class="tc-stars">★★★★★</div>
+        <blockquote>"S1F1RB1 managed our full basement development from permit to final inspection — on budget, on schedule, exceptional quality. They're the only GC I call for every project."</blockquote>
+        <div class="tc-auth">
+          <div class="tc-av">DK</div>
           <div><strong>David K.</strong><span>Edmonton Property Group</span></div>
         </div>
       </div>
-      <div class="tcard reveal">
-        <div class="tcard-stars">★★★★★</div>
-        <blockquote>"The framing crew was unbelievable — fast, precise, and they identified a structural discrepancy before it became a costly problem. I've referred three neighbors without hesitation. The highest possible recommendation I can give."</blockquote>
-        <div class="tcard-author">
-          <div class="tcard-avatar">SL</div>
+      <div class="tc tc-dark reveal">
+        <div class="tc-stars">★★★★★</div>
+        <blockquote>"The framing crew was unbelievable — fast, precise, and they caught a structural issue before it became costly. I've referred three neighbors without hesitation. Highest recommendation possible."</blockquote>
+        <div class="tc-auth">
+          <div class="tc-av">SL</div>
           <div><strong>Sandra L.</strong><span>St. Albert, AB</span></div>
+        </div>
+      </div>
+      <div class="tc reveal">
+        <div class="tc-stars">★★★★★</div>
+        <blockquote>"S1F1RB1 renovated our entire main floor. Ugur's team was professional, clean, and finished two days early. We've already booked them for our basement development."</blockquote>
+        <div class="tc-auth">
+          <div class="tc-av">MR</div>
+          <div><strong>Mike &amp; Rachel T.</strong><span>Sherwood Park, AB</span></div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ════════════════════════════════
-       ESTIMATOR
-  ════════════════════════════════ -->
+  <!-- ESTIMATOR -->
   <section id="estimate">
-    <div class="section-label"><span>Project Estimator</span></div>
+    <div class="sec-label"><span>Free Project Estimator</span></div>
     <div class="est-layout">
+
       <div class="est-left reveal">
-        <h2 class="est-headline">Get a budget<br />range in<br /><em>60 seconds.</em></h2>
-        <p>No commitment. No spam. Just an honest preliminary range to help you plan with confidence.</p>
-        <div class="est-guarantees">
-          <div class="eg"><div class="eg-dot"></div>Detailed quote within 24 hours</div>
-          <div class="eg"><div class="eg-dot"></div>No-obligation consultation</div>
-          <div class="eg"><div class="eg-dot"></div>Licensed &amp; insured team</div>
-        </div>
-        <a href="tel:7809072608" class="est-callout">
-          <span class="ec-label">Prefer to speak directly?</span>
-          <span class="ec-num">780-907-2608</span>
+        <h2 class="est-h2">Budget range<br />in <em>60 seconds.</em></h2>
+        <p>No commitment. No spam. An honest preliminary range to help you plan — followed by a detailed quote from our team within 24 hours.</p>
+        <ul class="est-checks">
+          <li><span>✓</span> Instant ballpark estimate</li>
+          <li><span>✓</span> Detailed quote within 24 hrs</li>
+          <li><span>✓</span> No-obligation consultation</li>
+          <li><span>✓</span> Licensed &amp; insured Alberta GC</li>
+        </ul>
+        <a href="tel:7809072608" class="est-phone-cta">
+          <span class="epc-label">Prefer to call?</span>
+          <span class="epc-num">780-907-2608</span>
         </a>
       </div>
 
       <div class="est-card reveal">
-        <div class="est-prog">
-          <div class="ep-bar"><div class="ep-fill" id="epFill"></div></div>
+        <div class="est-prog-row">
+          <div class="ep-track"><div class="ep-fill" id="epFill"></div></div>
           <span id="epLabel">Step 1 of 4</span>
         </div>
 
         <div class="est-step active" id="s1">
           <h3>What type of project?</h3>
-          <div class="opts-grid">
-            <button class="opt" data-v="bathroom">Bathroom Renovation</button>
-            <button class="opt" data-v="renovation">Home Renovation</button>
-            <button class="opt" data-v="framing">Framing / Structural</button>
-            <button class="opt" data-v="drywall">Drywall</button>
-            <button class="opt" data-v="tile">Tile Installation</button>
+          <div class="opts cols2">
             <button class="opt" data-v="concrete">Concrete / Foundation</button>
-            <button class="opt" data-v="cabinetry">Custom Cabinetry</button>
+            <button class="opt" data-v="framing">Framing / Structural</button>
+            <button class="opt" data-v="excavation">Excavation / Site Work</button>
+            <button class="opt" data-v="demolition">Demolition</button>
+            <button class="opt" data-v="drywall">Drywall</button>
+            <button class="opt" data-v="renovation">Home Renovation</button>
+            <button class="opt" data-v="bathroom">Bathroom Renovation</button>
             <button class="opt" data-v="management">Project Management</button>
           </div>
         </div>
 
         <div class="est-step" id="s2">
           <h3>Approximate scope?</h3>
-          <div class="opts-grid opts-grid--2">
+          <div class="opts cols2">
             <button class="opt" data-v="small"><strong>Small</strong><em>Under 200 sq ft</em></button>
             <button class="opt" data-v="medium"><strong>Medium</strong><em>200 – 600 sq ft</em></button>
             <button class="opt" data-v="large"><strong>Large</strong><em>600 – 1,500 sq ft</em></button>
-            <button class="opt" data-v="xlarge"><strong>Full Home</strong><em>1,500+ sq ft</em></button>
+            <button class="opt" data-v="xlarge"><strong>Full Site</strong><em>1,500+ sq ft</em></button>
           </div>
         </div>
 
         <div class="est-step" id="s3">
           <h3>Desired timeline?</h3>
-          <div class="opts-grid opts-grid--2">
+          <div class="opts cols2">
             <button class="opt" data-v="asap"><strong>ASAP</strong><em>Within 4 weeks</em></button>
             <button class="opt" data-v="soon"><strong>Soon</strong><em>1 – 3 months</em></button>
             <button class="opt" data-v="planning"><strong>Planning</strong><em>3 – 6 months</em></button>
@@ -429,20 +415,20 @@
               <div class="fg"><label>Phone</label><input type="tel" placeholder="780-555-0100" required /></div>
             </div>
             <div class="fg"><label>Email</label><input type="email" placeholder="you@example.com" required /></div>
-            <div class="fg"><label>Additional details (optional)</label><textarea rows="3" placeholder="Tell us anything specific about your project..."></textarea></div>
-            <button type="submit" class="btn-gold btn-full">View My Estimate Range →</button>
+            <div class="fg"><label>Project details (optional)</label><textarea rows="3" placeholder="Location, access notes, soil type, timeline pressure..."></textarea></div>
+            <button type="submit" class="btn-gold btn-full">Get My Estimate Range →</button>
           </form>
         </div>
 
         <div class="est-step" id="sResult">
-          <div class="result-block">
+          <div class="result-blk">
             <div class="rb-check">✓</div>
-            <p class="rb-label">Your Estimated Range</p>
+            <p class="rb-lbl">Estimated Range</p>
             <div class="rb-range" id="rbRange">—</div>
-            <p class="rb-note">Preliminary range based on your inputs. Our team will reach out within 24 hours with a detailed, no-obligation quote specific to your project.</p>
-            <div class="rb-actions">
-              <a href="tel:7809072608" class="btn-gold">Call Now: 780-907-2608</a>
-              <a href="#contact" class="btn-ghost-light">Send a Message</a>
+            <p class="rb-note">This is a preliminary range. Our team will contact you within 24 hours with a detailed, no-obligation quote specific to your Edmonton area project.</p>
+            <div class="rb-acts">
+              <a href="tel:7809072608" class="btn-gold">Call: 780-907-2608</a>
+              <a href="#contact" class="btn-ghost-dk">Send a Message</a>
             </div>
           </div>
         </div>
@@ -455,88 +441,73 @@
     </div>
   </section>
 
-  <!-- ════════════════════════════════
-       CONTACT
-  ════════════════════════════════ -->
+  <!-- CONTACT -->
   <section id="contact">
     <div class="contact-split">
-
-      <div class="contact-left">
-        <div class="contact-left-inner reveal">
-          <p class="eyebrow-gold">Let's Build Together</p>
-          <h2 class="contact-headline">Ready to start<br /><em>your project?</em></h2>
-          <p class="contact-sub">Every great build starts with a conversation. Reach out — we respond within one business day.</p>
-          <div class="cinfo">
-            <a href="tel:7809072608" class="ci"><span>Phone</span><strong>780-907-2608</strong></a>
-            <a href="mailto:ugur@S1F1RB1CONSTRUCTION.ca" class="ci"><span>Email</span><strong>ugur@S1F1RB1CONSTRUCTION.ca</strong></a>
-            <a href="mailto:help@S1F1RB1CONSTRUCTION.ca" class="ci"><span>Support</span><strong>help@S1F1RB1CONSTRUCTION.ca</strong></a>
-            <div class="ci"><span>Location</span><strong>Edmonton, Alberta, Canada</strong></div>
-            <div class="ci"><span>Hours</span><strong>Mon–Fri 7am–6pm · Sat 8am–4pm</strong></div>
-          </div>
-        </div>
-        <div class="contact-img-accent">
-          <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&q=85&fit=crop&crop=center" alt="Active construction site Edmonton Alberta" loading="lazy" />
+      <div class="contact-L reveal">
+        <p class="ey-gold">Let's Build Together</p>
+        <h2 class="contact-h2">Ready to start<br /><em>your project?</em></h2>
+        <p class="contact-sub">Every great build starts with a conversation. Reach out — we respond within one business day.</p>
+        <div class="cinfo">
+          <a href="tel:7809072608" class="ci"><span>Phone</span><strong>780-907-2608</strong></a>
+          <a href="mailto:ugur@S1F1RB1CONSTRUCTION.ca" class="ci"><span>General</span><strong>ugur@S1F1RB1CONSTRUCTION.ca</strong></a>
+          <a href="mailto:help@S1F1RB1CONSTRUCTION.ca" class="ci"><span>Support</span><strong>help@S1F1RB1CONSTRUCTION.ca</strong></a>
+          <div class="ci"><span>Location</span><strong>Edmonton, Alberta, Canada</strong></div>
+          <div class="ci"><span>Hours</span><strong>Mon–Fri 7am–6pm · Sat 8am–4pm</strong></div>
         </div>
       </div>
-
-      <div class="contact-right reveal">
+      <div class="contact-R reveal">
         <form id="contactForm" novalidate>
           <div class="frow">
-            <div class="fg"><label>Name</label><input type="text" id="cn" placeholder="Your full name" required /></div>
-            <div class="fg"><label>Phone</label><input type="tel" id="cp" placeholder="780-555-0100" /></div>
+            <div class="fg"><label>Name</label><input type="text" placeholder="Your full name" required /></div>
+            <div class="fg"><label>Phone</label><input type="tel" placeholder="780-555-0100" /></div>
           </div>
-          <div class="fg"><label>Email</label><input type="email" id="ce" placeholder="you@example.com" required /></div>
+          <div class="fg"><label>Email</label><input type="email" placeholder="you@example.com" required /></div>
           <div class="fg">
             <label>Service Needed</label>
-            <select id="cs">
+            <select>
               <option value="">Select a service...</option>
+              <option>Concrete &amp; Foundation</option>
+              <option>Excavation &amp; Site Work</option>
+              <option>Residential Framing</option>
+              <option>Demolition</option>
+              <option>Drywall Installation</option>
               <option>Home Renovation</option>
               <option>Bathroom Renovation</option>
-              <option>Concrete &amp; Foundation</option>
-              <option>Residential Framing</option>
-              <option>Drywall Installation</option>
-              <option>Tile Installation</option>
-              <option>Custom Cabinetry</option>
               <option>General Contracting</option>
+              <option>Project Management</option>
               <option>Other</option>
             </select>
           </div>
-          <div class="fg"><label>Message</label><textarea id="cm" rows="5" placeholder="Describe your project, timeline, and any relevant details..."></textarea></div>
+          <div class="fg"><label>Message</label><textarea rows="5" placeholder="Tell us about your project — location, scope, timeline..."></textarea></div>
           <button type="submit" class="btn-gold btn-full">Send Message →</button>
         </form>
       </div>
-
     </div>
   </section>
 
-  <!-- ════════════════════════════════
-       FOOTER
-  ════════════════════════════════ -->
+  <!-- FOOTER -->
   <footer id="footer">
-    <div class="footer-top">
-      <div class="footer-brand">
-        <span class="logo">S1F1RB1<sup>©</sup></span>
-        <p>Building excellence across Western Canada since 2004. Licensed, insured, and committed to premium craftsmanship on every project.</p>
-        <div class="footer-certs">
-          <span>Licensed GC</span>
-          <span>WCB Insured</span>
-          <span>5-Star Rated</span>
-        </div>
+    <div class="ft-top">
+      <div class="ft-brand">
+        <a href="#" class="logo">S1F1RB1<sup>©</sup></a>
+        <p>Edmonton, Alberta's trusted general contractor since 2004. Licensed, WCB insured, and committed to uncompromising standards on every Alberta job site.</p>
+        <div class="ft-certs"><span>Licensed GC</span><span>WCB Insured</span><span>5-Star Rated</span></div>
       </div>
-      <div class="footer-col">
+      <div class="ft-col">
         <h4>Services</h4>
         <ul>
-          <li><a href="#services">Home Renovation</a></li>
-          <li><a href="#services">Bathroom Renovation</a></li>
           <li><a href="#services">Concrete &amp; Foundation</a></li>
+          <li><a href="#services">Excavation &amp; Site Work</a></li>
           <li><a href="#services">Residential Framing</a></li>
-          <li><a href="#services">Drywall</a></li>
-          <li><a href="#services">Tile Installation</a></li>
-          <li><a href="#services">Cabinetry</a></li>
+          <li><a href="#services">Demolition</a></li>
+          <li><a href="#services">Drywall Installation</a></li>
+          <li><a href="#services">Home Renovation</a></li>
           <li><a href="#services">Project Management</a></li>
+          <li><a href="#services">Tile &amp; Finishing</a></li>
         </ul>
       </div>
-      <div class="footer-col">
+      <div class="ft-col">
         <h4>Company</h4>
         <ul>
           <li><a href="#work">Projects</a></li>
@@ -545,15 +516,16 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
-      <div class="footer-col">
+      <div class="ft-col">
         <h4>Contact</h4>
         <p><a href="tel:7809072608">780-907-2608</a></p>
         <p><a href="mailto:ugur@S1F1RB1CONSTRUCTION.ca">ugur@S1F1RB1CONSTRUCTION.ca</a></p>
-        <p style="margin-top:0.25rem;color:rgba(255,255,255,0.28)">Edmonton, Alberta, Canada</p>
+        <p>Edmonton, Alberta, Canada</p>
+        <p style="margin-top:.75rem;color:rgba(255,255,255,.2);font-size:.78rem">Mon–Fri: 7am–6pm<br/>Sat: 8am–4pm</p>
       </div>
     </div>
-    <div class="footer-bottom">
-      <p>© 2026 S1F1RB1 Construction. All rights reserved.</p>
+    <div class="ft-bot">
+      <p>© 2026 S1F1RB1 Construction. All rights reserved. · Edmonton, Alberta, Canada</p>
       <p><a href="https://S1F1RB1CONSTRUCTION.ca">S1F1RB1CONSTRUCTION.ca</a></p>
     </div>
   </footer>
