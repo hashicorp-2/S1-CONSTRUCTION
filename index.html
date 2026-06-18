@@ -3,719 +3,558 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="S1F1RB1 Construction — Edmonton's premier general contractor. Bathroom renovation, home remodeling, concrete, framing, drywall, tile, cabinetry & full project management across Western Canada. Licensed & Insured. Call 780-907-2608." />
-  <meta name="keywords" content="Edmonton construction, home renovation Alberta, bathroom remodeling, general contractor Edmonton, drywall, framing, tile installation, concrete, project management Western Canada" />
+  <meta name="description" content="S1F1RB1 Construction — Edmonton's premier general contractor. Million-dollar renovations, structural builds, and full project management across Western Canada. Licensed & Insured. 780-907-2608." />
   <meta property="og:title" content="S1F1RB1 Construction — Building Excellence, Delivering Dreams" />
-  <meta property="og:description" content="Edmonton's premier construction company. Premium renovations, structural work & full project management across Western Canada." />
+  <meta property="og:description" content="Edmonton's premier construction firm. Premium renovations, structural work & full project management across Western Canada." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://S1F1RB1CONSTRUCTION.ca" />
-  <meta name="theme-color" content="#0d0d0d" />
-  <title>S1F1RB1 Construction | Edmonton's Premier Builder</title>
+  <meta name="theme-color" content="#0a0a0a" />
+  <title>S1F1RB1 Construction | Edmonton Premier Builder</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="preconnect" href="https://images.unsplash.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700;1,800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "S1F1RB1 Construction",
-    "url": "https://S1F1RB1CONSTRUCTION.ca",
-    "telephone": "+17809072608",
-    "email": "ugur@S1F1RB1CONSTRUCTION.ca",
-    "address": { "@type": "PostalAddress", "addressLocality": "Edmonton", "addressRegion": "AB", "addressCountry": "CA" },
-    "description": "Premium construction, renovation, and project management services in Western Canada.",
-    "priceRange": "$$", "areaServed": "Western Canada"
-  }
+  {"@context":"https://schema.org","@type":"LocalBusiness","name":"S1F1RB1 Construction","url":"https://S1F1RB1CONSTRUCTION.ca","telephone":"+17809072608","email":"ugur@S1F1RB1CONSTRUCTION.ca","address":{"@type":"PostalAddress","addressLocality":"Edmonton","addressRegion":"AB","addressCountry":"CA"},"description":"Premium construction, renovation, and project management services in Western Canada.","priceRange":"$$$$","areaServed":"Western Canada"}
   </script>
 </head>
 <body>
 
-  <!-- ═══════════════════════════════════════════
-       NAVBAR
-  ═══════════════════════════════════════════ -->
-  <nav class="navbar" id="navbar">
-    <div class="nav-inner">
-      <a href="#top" class="nav-logo">
-        S1F1RB1<span class="logo-dot">.</span>
-      </a>
-      <ul class="nav-links" id="navLinks">
-        <li><a href="#services" class="nav-link">Services</a></li>
-        <li><a href="#about" class="nav-link">About</a></li>
-        <li><a href="#portfolio" class="nav-link">Projects</a></li>
-        <li><a href="#estimator" class="nav-link">Estimate</a></li>
-        <li><a href="#contact" class="nav-link">Contact</a></li>
-      </ul>
-      <a href="#estimator" class="btn btn-amber nav-cta">Free Estimate</a>
-      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
+  <!-- ════════════════════════════════
+       CURSOR FOLLOWER
+  ════════════════════════════════ -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-dot" id="cursorDot"></div>
+
+  <!-- ════════════════════════════════
+       NAV
+  ════════════════════════════════ -->
+  <nav id="nav">
+    <div class="nav-left">
+      <a href="#" class="logo">S1F1RB1<sup>©</sup></a>
+    </div>
+    <ul class="nav-center" id="navLinks">
+      <li><a href="#work">Work</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <a href="tel:7809072608" class="nav-phone">780-907-2608</a>
+      <a href="#estimate" class="nav-cta">Get Estimate</a>
+      <button class="burger" id="burger" aria-label="Menu"><span></span><span></span></button>
     </div>
   </nav>
 
-  <!-- ═══════════════════════════════════════════
-       HERO — full-bleed construction photography
-  ═══════════════════════════════════════════ -->
-  <section class="hero" id="top">
-    <div class="hero-media">
+  <!-- ════════════════════════════════
+       HERO
+  ════════════════════════════════ -->
+  <section id="hero">
+    <div class="hero-img-wrap">
       <img
-        class="hero-img"
-        src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1920&q=85&fit=crop&crop=center"
-        alt="Construction workers on an active job site — S1F1RB1 Construction"
+        id="heroImg"
+        src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=2400&q=90&fit=crop&crop=center"
+        alt="Monumental architectural construction — S1F1RB1 Construction"
         loading="eager"
         fetchpriority="high"
       />
-      <div class="hero-overlay"></div>
+      <div class="hero-scrim"></div>
     </div>
-    <div class="hero-content container">
-      <div class="hero-tag reveal-hero">Western Canada's Trusted Builder</div>
-      <h1 class="hero-h1 reveal-hero delay-1">
-        Building<br /><em>Excellence.</em><br />Delivering Dreams.
+
+    <div class="hero-body">
+      <div class="hero-eyebrow">
+        <span class="hero-tag">Edmonton · Alberta · Western Canada</span>
+        <span class="hero-established">Est. 2004</span>
+      </div>
+      <h1 class="hero-headline">
+        <span class="line l1">Building</span>
+        <span class="line l2"><em>Excellence.</em></span>
+        <span class="line l3">Delivering Dreams.</span>
       </h1>
-      <p class="hero-sub reveal-hero delay-2">
-        From structural foundations to stunning finishes — S1F1RB1 Construction delivers premium craftsmanship across Edmonton and Western Canada with unmatched precision and integrity.
-      </p>
-      <div class="hero-ctas reveal-hero delay-3">
-        <a href="#estimator" class="btn btn-amber btn-lg">Get a Free Estimate</a>
-        <a href="#portfolio" class="btn btn-outline btn-lg">View Our Work</a>
-      </div>
-      <div class="hero-proof reveal-hero delay-4">
-        <div class="hero-proof-item"><span>20+</span><p>Years Building</p></div>
-        <div class="hero-proof-divider"></div>
-        <div class="hero-proof-item"><span>500+</span><p>Projects Done</p></div>
-        <div class="hero-proof-divider"></div>
-        <div class="hero-proof-item"><span>5★</span><p>Avg. Rating</p></div>
-        <div class="hero-proof-divider"></div>
-        <div class="hero-proof-item"><span>Licensed</span><p>&amp; Insured</p></div>
+      <div class="hero-footer-row">
+        <p class="hero-descriptor">
+          General Contractor — Edmonton's highest-rated construction firm. <br />
+          From structural foundations to bespoke finishes.
+        </p>
+        <a href="#estimate" class="btn-gold">
+          <span>Free Project Estimate</span>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
       </div>
     </div>
-    <a href="#services" class="hero-scroll" aria-label="Scroll down">
-      <div class="scroll-circle">
-        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 3v10M3 9l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </div>
+
+    <div class="hero-stats">
+      <div class="hstat"><span class="hstat-n" data-n="20">0</span><span class="hstat-s">+</span><p>Years</p></div>
+      <div class="hstat-div"></div>
+      <div class="hstat"><span class="hstat-n" data-n="500">0</span><span class="hstat-s">+</span><p>Projects</p></div>
+      <div class="hstat-div"></div>
+      <div class="hstat"><span class="hstat-n" data-n="98">0</span><span class="hstat-s">%</span><p>Satisfaction</p></div>
+      <div class="hstat-div"></div>
+      <div class="hstat"><span class="hstat-n hstat-str">Licensed</span><p>&amp; Insured</p></div>
+    </div>
+
+    <a href="#work" class="scroll-down" aria-label="Scroll">
+      <div class="sd-line"></div>
       <span>Scroll</span>
     </a>
   </section>
 
-  <!-- ═══════════════════════════════════════════
-       SERVICES
-  ═══════════════════════════════════════════ -->
-  <section class="services section" id="services">
-    <div class="container">
-      <div class="split-header">
-        <div class="split-header-left">
-          <p class="eyebrow reveal">What We Build</p>
-          <h2 class="section-h2 reveal">Comprehensive<br /><em>Services</em></h2>
-        </div>
-        <div class="split-header-right reveal">
-          <p>Every trade, every timeline, every permit — coordinated by one team. We handle the full scope so your project runs smoothly from day one.</p>
-          <a href="#contact" class="btn btn-dark mt-1">Talk to Our Team →</a>
-        </div>
-      </div>
+  <!-- ════════════════════════════════
+       PORTFOLIO / WORK
+  ════════════════════════════════ -->
+  <section id="work">
+    <div class="section-label"><span>Selected Projects</span></div>
 
-      <div class="services-grid">
+    <div class="work-intro">
+      <p class="work-intro-text reveal">
+        A curated selection of our most significant work — from master bathroom transformations to full structural builds across Western Canada.
+      </p>
+    </div>
 
-        <div class="service-card reveal" style="--img:url('https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80&fit=crop&crop=center')">
-          <div class="sc-photo"></div>
-          <div class="sc-body">
-            <span class="sc-num">01</span>
-            <h3>Home Renovation &amp; Remodeling</h3>
-            <p>Complete interior transformations — kitchens, living areas, basements, full-home reimaginings that match how you actually live.</p>
-            <ul><li>Full-home renovations</li><li>Interior remodeling</li><li>Finishing &amp; millwork</li></ul>
-          </div>
+    <div class="work-grid">
+
+      <article class="work-item work-item--hero reveal">
+        <div class="wi-img">
+          <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1600&q=90&fit=crop&crop=center" alt="Ultra-luxury master bathroom renovation" loading="lazy" />
         </div>
-
-        <div class="service-card reveal" style="--img:url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80&fit=crop&crop=center')">
-          <div class="sc-photo"></div>
-          <div class="sc-body">
-            <span class="sc-num">02</span>
-            <h3>Bathroom &amp; Washroom Renovation</h3>
-            <p>Spa-quality renovations that combine function with luxury. Full gut-and-rebuild or targeted upgrades — all trades coordinated.</p>
-            <ul><li>Full gut &amp; rebuild</li><li>Shower &amp; tub surrounds</li><li>Vanity &amp; fixture upgrades</li></ul>
-          </div>
+        <div class="wi-meta">
+          <span class="wi-cat">Bathroom Renovation</span>
+          <h3>Master Ensuite — Marble &amp; Glass</h3>
+          <span class="wi-loc">Sherwood Park · 2025</span>
         </div>
+      </article>
 
-        <div class="service-card reveal" style="--img:url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80&fit=crop&crop=top')">
-          <div class="sc-photo"></div>
-          <div class="sc-body">
-            <span class="sc-num">03</span>
-            <h3>Concrete &amp; Foundation Work</h3>
-            <p>Structural integrity starts below grade. We pour, finish, and waterproof foundations, slabs, driveways, and retaining walls.</p>
-            <ul><li>Foundation pours &amp; repair</li><li>Concrete slabs &amp; driveways</li><li>Retaining walls</li></ul>
-          </div>
+      <article class="work-item reveal">
+        <div class="wi-img">
+          <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1000&q=85&fit=crop&crop=center" alt="High-end kitchen renovation Edmonton" loading="lazy" />
         </div>
-
-        <div class="service-card reveal" style="--img:url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&q=80&fit=crop&crop=center')">
-          <div class="sc-photo"></div>
-          <div class="sc-body">
-            <span class="sc-num">04</span>
-            <h3>Residential Framing</h3>
-            <p>Precision structural framing for new builds, additions, and second stories. Fast, accurate, and built to Alberta code.</p>
-            <ul><li>Wood &amp; steel framing</li><li>Additions &amp; second stories</li><li>Load-bearing modifications</li></ul>
-          </div>
+        <div class="wi-meta">
+          <span class="wi-cat">Kitchen Renovation</span>
+          <h3>Luxury Kitchen Overhaul</h3>
+          <span class="wi-loc">Edmonton · 2025</span>
         </div>
+      </article>
 
-        <div class="service-card reveal" style="--img:url('https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80&fit=crop&crop=center')">
-          <div class="sc-photo"></div>
-          <div class="sc-body">
-            <span class="sc-num">05</span>
-            <h3>Drywall Installation &amp; Taping</h3>
-            <p>Flawlessly smooth walls and ceilings — hung, taped, mudded, and sanded to a perfect paint-ready finish every time.</p>
-            <ul><li>Drywall hanging &amp; boarding</li><li>Taping &amp; mudding</li><li>Texture &amp; smooth finish</li></ul>
-          </div>
+      <article class="work-item reveal">
+        <div class="wi-img">
+          <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1000&q=85&fit=crop&crop=top" alt="Large-scale residential framing project" loading="lazy" />
         </div>
-
-        <div class="service-card reveal" style="--img:url('https://images.unsplash.com/photo-1615873968403-89e068629265?w=800&q=80&fit=crop&crop=center')">
-          <div class="sc-photo"></div>
-          <div class="sc-body">
-            <span class="sc-num">06</span>
-            <h3>Tile &amp; Stone Installation</h3>
-            <p>Precision tile and natural stone for floors, walls, and showers. Complex patterns, large-format tiles, heated floor systems.</p>
-            <ul><li>Floor &amp; wall tile</li><li>Large-format &amp; mosaic</li><li>Natural stone &amp; porcelain</li></ul>
-          </div>
+        <div class="wi-meta">
+          <span class="wi-cat">Residential Framing</span>
+          <h3>New Build — 2,800 sq ft</h3>
+          <span class="wi-loc">Spruce Grove · 2024</span>
         </div>
+      </article>
 
-        <div class="service-card reveal" style="--img:url('https://images.unsplash.com/photo-1590725121839-892b458a74fe?w=800&q=80&fit=crop&crop=center')">
-          <div class="sc-photo"></div>
-          <div class="sc-body">
-            <span class="sc-num">07</span>
-            <h3>General Contracting &amp; Project Management</h3>
-            <p>We manage every trade, timeline, and permit. From master planning to final walkthrough — one point of contact, zero headaches.</p>
-            <ul><li>Full project coordination</li><li>Permit acquisition</li><li>Subcontractor management</li></ul>
-          </div>
+      <article class="work-item work-item--wide reveal">
+        <div class="wi-img">
+          <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=2000&q=90&fit=crop&crop=center" alt="Premium walk-in shower tile installation" loading="lazy" />
         </div>
-
-        <div class="service-card reveal" style="--img:url('https://images.unsplash.com/photo-1556909172-54557c7e4fb7?w=800&q=80&fit=crop&crop=center')">
-          <div class="sc-photo"></div>
-          <div class="sc-body">
-            <span class="sc-num">08</span>
-            <h3>Custom Cabinetry &amp; Finishing</h3>
-            <p>Bespoke cabinetry and finish carpentry built to your specifications. From kitchens to built-in units that define a room's character.</p>
-            <ul><li>Custom cabinet fabrication</li><li>Built-ins &amp; shelving</li><li>Trim &amp; finish carpentry</li></ul>
-          </div>
+        <div class="wi-meta">
+          <span class="wi-cat">Tile &amp; Stone</span>
+          <h3>Walk-In Shower — Calacatta Marble</h3>
+          <span class="wi-loc">St. Albert · 2025</span>
         </div>
+      </article>
 
-      </div>
+      <article class="work-item reveal">
+        <div class="wi-img">
+          <img src="https://images.unsplash.com/photo-1484154218962-a197022b5858?w=1000&q=85&fit=crop&crop=center" alt="Custom shaker cabinetry installation" loading="lazy" />
+        </div>
+        <div class="wi-meta">
+          <span class="wi-cat">Custom Cabinetry</span>
+          <h3>Shaker-Style Kitchen Build</h3>
+          <span class="wi-loc">Edmonton · 2024</span>
+        </div>
+      </article>
+
+      <article class="work-item reveal">
+        <div class="wi-img">
+          <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1000&q=85&fit=crop&crop=center" alt="Full basement development project" loading="lazy" />
+        </div>
+        <div class="wi-meta">
+          <span class="wi-cat">Full Development</span>
+          <h3>Basement Suite — Full Build</h3>
+          <span class="wi-loc">Leduc · 2024</span>
+        </div>
+      </article>
+
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════
-       FULL-BLEED STATEMENT BREAK
-  ═══════════════════════════════════════════ -->
-  <div class="statement-break">
-    <img
-      src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1920&q=80&fit=crop&crop=center"
-      alt="High-end architectural construction in progress"
-      loading="lazy"
-    />
-    <div class="statement-overlay"></div>
-    <div class="statement-text container">
-      <p class="eyebrow" style="color:var(--amber)">Our Promise</p>
-      <blockquote>
-        "Every nail. Every joint. Every finish. Built as if it were our own home."
-      </blockquote>
-      <cite>— Ugur, Founder &amp; Master Builder</cite>
+  <!-- ════════════════════════════════
+       MARQUEE
+  ════════════════════════════════ -->
+  <div class="marquee-wrap">
+    <div class="marquee-track">
+      <span>Renovation</span><span class="dot">·</span>
+      <span>Concrete &amp; Foundation</span><span class="dot">·</span>
+      <span>Residential Framing</span><span class="dot">·</span>
+      <span>Drywall Installation</span><span class="dot">·</span>
+      <span>Bathroom Renovation</span><span class="dot">·</span>
+      <span>Tile &amp; Stone</span><span class="dot">·</span>
+      <span>Project Management</span><span class="dot">·</span>
+      <span>Custom Cabinetry</span><span class="dot">·</span>
+      <span>Renovation</span><span class="dot">·</span>
+      <span>Concrete &amp; Foundation</span><span class="dot">·</span>
+      <span>Residential Framing</span><span class="dot">·</span>
+      <span>Drywall Installation</span><span class="dot">·</span>
+      <span>Bathroom Renovation</span><span class="dot">·</span>
+      <span>Tile &amp; Stone</span><span class="dot">·</span>
+      <span>Project Management</span><span class="dot">·</span>
+      <span>Custom Cabinetry</span><span class="dot">·</span>
     </div>
   </div>
 
-  <!-- ═══════════════════════════════════════════
-       ABOUT
-  ═══════════════════════════════════════════ -->
-  <section class="about section" id="about">
-    <div class="container">
-      <div class="about-grid">
+  <!-- ════════════════════════════════
+       SERVICES — Accordion / Hover List
+  ════════════════════════════════ -->
+  <section id="services">
+    <div class="section-label"><span>What We Build</span></div>
 
-        <div class="about-photos reveal">
-          <div class="about-photo-main">
-            <img
-              src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=900&q=85&fit=crop&crop=center"
-              alt="Construction team working on a residential build"
-              loading="lazy"
-            />
-          </div>
-          <div class="about-photo-stack">
-            <div class="about-photo-sm">
-              <img
-                src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=80&fit=crop&crop=faces"
-                alt="S1F1RB1 crew on site"
-                loading="lazy"
-              />
-            </div>
-            <div class="about-stat-card">
-              <span class="asc-number">20+</span>
-              <span class="asc-label">Years Building<br />Western Canada</span>
-            </div>
-          </div>
+    <div class="svc-layout">
+      <div class="svc-header reveal">
+        <h2 class="svc-headline">Eight Disciplines.<br /><em>One Standard.</em></h2>
+        <p class="svc-sub">Every service executed with the same obsessive attention to craft — whether it's a single bathroom or a complete structural build.</p>
+      </div>
+
+      <div class="svc-list">
+        <div class="svc-preview">
+          <img id="svcImg" src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=700&q=85&fit=crop" alt="" loading="lazy" aria-hidden="true" />
         </div>
-
-        <div class="about-content reveal">
-          <p class="eyebrow">Who We Are</p>
-          <h2 class="section-h2">Craftsmanship Is Not<br />a Buzzword — <em>It's Our Standard.</em></h2>
-          <p class="body-lg">S1F1RB1 Construction was founded on a single principle: every project, regardless of size, deserves the precision and care of a master craftsperson. Based in Edmonton, we serve clients across Alberta and Western Canada with licensed tradespeople who take personal pride in every detail.</p>
-          <div class="pillars">
-            <div class="pillar">
-              <div class="pillar-dot"></div>
-              <div>
-                <h4>Quality Without Compromise</h4>
-                <p>Premium materials, proven techniques — never cutting corners where it counts.</p>
-              </div>
+        <ul class="svc-items">
+          <li class="svc-item active" data-img="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=700&q=85&fit=crop">
+            <div class="si-num">01</div>
+            <div class="si-content">
+              <h3>Home Renovation &amp; Remodeling</h3>
+              <p>Complete interior transformations — kitchens, living areas, basements, and full-home reimaginings.</p>
             </div>
-            <div class="pillar">
-              <div class="pillar-dot"></div>
-              <div>
-                <h4>Radical Transparency</h4>
-                <p>Clear pricing, honest timelines, weekly updates — no surprises on your invoice.</p>
-              </div>
+            <div class="si-arrow">→</div>
+          </li>
+          <li class="svc-item" data-img="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=700&q=85&fit=crop">
+            <div class="si-num">02</div>
+            <div class="si-content">
+              <h3>Bathroom &amp; Washroom Renovation</h3>
+              <p>Spa-quality renovations combining function with luxury. Full gut-and-rebuild or targeted upgrades.</p>
             </div>
-            <div class="pillar">
-              <div class="pillar-dot"></div>
-              <div>
-                <h4>Built Relationships</h4>
-                <p>Over 60% of our work comes from repeat clients and referrals. That's our true report card.</p>
-              </div>
+            <div class="si-arrow">→</div>
+          </li>
+          <li class="svc-item" data-img="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=700&q=85&fit=crop">
+            <div class="si-num">03</div>
+            <div class="si-content">
+              <h3>Concrete &amp; Foundation Work</h3>
+              <p>Structural integrity from below grade. Foundations, slabs, driveways, and retaining walls.</p>
             </div>
-          </div>
-          <div class="about-ctas">
-            <a href="tel:7809072608" class="btn btn-amber">Call 780-907-2608</a>
-            <a href="#contact" class="btn btn-outline-dark">Send a Message</a>
-          </div>
-        </div>
-
+            <div class="si-arrow">→</div>
+          </li>
+          <li class="svc-item" data-img="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=700&q=85&fit=crop&crop=top">
+            <div class="si-num">04</div>
+            <div class="si-content">
+              <h3>Residential Framing</h3>
+              <p>Precision structural framing for new builds, additions, and second stories. Fast. Accurate. Code-compliant.</p>
+            </div>
+            <div class="si-arrow">→</div>
+          </li>
+          <li class="svc-item" data-img="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=700&q=85&fit=crop">
+            <div class="si-num">05</div>
+            <div class="si-content">
+              <h3>Drywall Installation &amp; Taping</h3>
+              <p>Hung, taped, mudded, and sanded to a flawless paint-ready finish — every time, without exception.</p>
+            </div>
+            <div class="si-arrow">→</div>
+          </li>
+          <li class="svc-item" data-img="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=700&q=85&fit=crop">
+            <div class="si-num">06</div>
+            <div class="si-content">
+              <h3>Tile &amp; Stone Installation</h3>
+              <p>Precision tile and natural stone — floors, walls, feature surfaces. Complex patterns and large-format tiles.</p>
+            </div>
+            <div class="si-arrow">→</div>
+          </li>
+          <li class="svc-item" data-img="https://images.unsplash.com/photo-1590725121839-892b458a74fe?w=700&q=85&fit=crop">
+            <div class="si-num">07</div>
+            <div class="si-content">
+              <h3>General Contracting &amp; Project Management</h3>
+              <p>One point of contact. Every trade, every timeline, every permit managed with absolute precision.</p>
+            </div>
+            <div class="si-arrow">→</div>
+          </li>
+          <li class="svc-item" data-img="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=700&q=85&fit=crop">
+            <div class="si-num">08</div>
+            <div class="si-content">
+              <h3>Custom Cabinetry &amp; Finishing</h3>
+              <p>Bespoke cabinetry and finish carpentry crafted to spec. Built-ins, kitchens, trim, and millwork.</p>
+            </div>
+            <div class="si-arrow">→</div>
+          </li>
+        </ul>
       </div>
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════
-       PORTFOLIO — Museum-style gallery
-  ═══════════════════════════════════════════ -->
-  <section class="portfolio section" id="portfolio">
-    <div class="container">
-      <div class="split-header">
-        <div class="split-header-left">
-          <p class="eyebrow reveal" style="color:var(--amber)">Our Work</p>
-          <h2 class="section-h2 reveal" style="color:#fff">Recent <em>Projects</em></h2>
+  <!-- ════════════════════════════════
+       ABOUT — Full-bleed cinematic
+  ════════════════════════════════ -->
+  <section id="about">
+    <div class="about-img-wrap">
+      <img
+        src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=2000&q=90&fit=crop&crop=center"
+        alt="S1F1RB1 Construction team on a residential build site in Edmonton"
+        loading="lazy"
+      />
+      <div class="about-scrim"></div>
+    </div>
+    <div class="about-body">
+      <div class="about-text reveal">
+        <p class="eyebrow-light">Who We Are</p>
+        <h2 class="about-headline">
+          Craftsmanship is not<br />a tagline — <em>it's our<br />only standard.</em>
+        </h2>
+        <div class="about-cols">
+          <p>S1F1RB1 Construction was founded in Edmonton on a single, non-negotiable principle: every project — regardless of scale or budget — deserves the meticulous care of a master craftsperson. Two decades and 500+ completed projects later, that principle has never wavered.</p>
+          <p>We serve homeowners, developers, and commercial clients across Alberta and Western Canada. Our licensed team handles everything from initial planning and permitting through to final punch-list walkthrough. One company. Full accountability. Zero compromises.</p>
         </div>
-        <div class="split-header-right reveal" style="color:rgba(255,255,255,0.55)">
-          <p>A selection of completed projects across Edmonton and Western Canada — from gut renovations to full new builds.</p>
+        <div class="about-pillars">
+          <div class="ap"><span>20+</span><p>Years of proven excellence across Western Canada</p></div>
+          <div class="ap"><span>500+</span><p>Projects delivered on time and on budget</p></div>
+          <div class="ap"><span>60%</span><p>Business from repeat clients and referrals</p></div>
         </div>
-      </div>
-
-      <div class="portfolio-masonry">
-
-        <div class="pm-card pm-large reveal">
-          <img src="https://images.unsplash.com/photo-1556909172-54557c7e4fb7?w=1200&q=85&fit=crop&crop=center" alt="Modern kitchen renovation Edmonton" loading="lazy" />
-          <div class="pm-overlay">
-            <span class="pm-cat">Kitchen Renovation</span>
-            <h3>Luxury Kitchen Overhaul</h3>
-            <p>Edmonton, AB · 2025</p>
-          </div>
-        </div>
-
-        <div class="pm-card reveal">
-          <img src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=800&q=85&fit=crop&crop=center" alt="Luxury bathroom renovation" loading="lazy" />
-          <div class="pm-overlay">
-            <span class="pm-cat">Bathroom Renovation</span>
-            <h3>Master Ensuite Spa</h3>
-            <p>Sherwood Park, AB · 2025</p>
-          </div>
-        </div>
-
-        <div class="pm-card reveal">
-          <img src="https://images.unsplash.com/photo-1615873968403-89e068629265?w=800&q=85&fit=crop&crop=center" alt="Premium tile installation" loading="lazy" />
-          <div class="pm-overlay">
-            <span class="pm-cat">Tile Installation</span>
-            <h3>Marble Feature Wall</h3>
-            <p>St. Albert, AB · 2025</p>
-          </div>
-        </div>
-
-        <div class="pm-card pm-wide reveal">
-          <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1400&q=85&fit=crop&crop=top" alt="Residential construction framing" loading="lazy" />
-          <div class="pm-overlay">
-            <span class="pm-cat">Residential Framing</span>
-            <h3>New Build — 2,800 sq ft</h3>
-            <p>Spruce Grove, AB · 2024</p>
-          </div>
-        </div>
-
-        <div class="pm-card reveal">
-          <img src="https://images.unsplash.com/photo-1484154218962-a197022b5858?w=800&q=85&fit=crop&crop=center" alt="Custom kitchen cabinetry" loading="lazy" />
-          <div class="pm-overlay">
-            <span class="pm-cat">Custom Cabinetry</span>
-            <h3>Shaker-Style Kitchen</h3>
-            <p>Edmonton, AB · 2024</p>
-          </div>
-        </div>
-
-        <div class="pm-card reveal">
-          <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=85&fit=crop&crop=center" alt="Walk-in shower tile work" loading="lazy" />
-          <div class="pm-overlay">
-            <span class="pm-cat">Bathroom Renovation</span>
-            <h3>Walk-In Shower Build</h3>
-            <p>Leduc, AB · 2024</p>
-          </div>
-        </div>
-
+        <a href="#contact" class="btn-gold">Start Your Project →</a>
       </div>
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════
-       PROJECT ESTIMATOR
-  ═══════════════════════════════════════════ -->
-  <section class="estimator section" id="estimator">
-    <div class="container">
-      <div class="est-layout">
-        <div class="est-left reveal">
-          <p class="eyebrow">Free Tool</p>
-          <h2 class="section-h2">Project Cost<br /><em>Estimator</em></h2>
-          <p class="body-lg">Get a realistic budget range in under 60 seconds. No commitment, no spam — just honest numbers to help you plan.</p>
-          <div class="est-feature-list">
-            <div class="est-feature"><span>✓</span> Instant ballpark estimate</div>
-            <div class="est-feature"><span>✓</span> Detailed quote within 24 hrs</div>
-            <div class="est-feature"><span>✓</span> No-obligation consultation</div>
-            <div class="est-feature"><span>✓</span> Licensed &amp; insured team</div>
-          </div>
-          <div class="est-contact-nudge">
-            <p>Prefer to call?</p>
-            <a href="tel:7809072608" class="est-phone">780-907-2608</a>
-          </div>
-        </div>
-
-        <div class="est-card reveal">
-          <div class="est-progress-wrap">
-            <div class="est-progress-bar"><div class="est-progress-fill" id="progressFill"></div></div>
-            <span class="est-progress-label" id="progressLabel">Step 1 of 4</span>
-          </div>
-
-          <div class="est-step active" id="step1">
-            <h3 class="step-q">What type of project are you planning?</h3>
-            <div class="option-grid cols-2">
-              <button class="opt" data-value="bathroom">
-                <span class="opt-icon">🚿</span>
-                <span class="opt-label">Bathroom Renovation</span>
-              </button>
-              <button class="opt" data-value="renovation">
-                <span class="opt-icon">🏠</span>
-                <span class="opt-label">Home Renovation</span>
-              </button>
-              <button class="opt" data-value="framing">
-                <span class="opt-icon">🏗️</span>
-                <span class="opt-label">Framing / Structural</span>
-              </button>
-              <button class="opt" data-value="drywall">
-                <span class="opt-icon">🧱</span>
-                <span class="opt-label">Drywall</span>
-              </button>
-              <button class="opt" data-value="tile">
-                <span class="opt-icon">🔲</span>
-                <span class="opt-label">Tile Installation</span>
-              </button>
-              <button class="opt" data-value="concrete">
-                <span class="opt-icon">⚙️</span>
-                <span class="opt-label">Concrete / Foundation</span>
-              </button>
-              <button class="opt" data-value="cabinetry">
-                <span class="opt-icon">🗄️</span>
-                <span class="opt-label">Custom Cabinetry</span>
-              </button>
-              <button class="opt" data-value="management">
-                <span class="opt-icon">📋</span>
-                <span class="opt-label">Project Management</span>
-              </button>
-            </div>
-          </div>
-
-          <div class="est-step" id="step2">
-            <h3 class="step-q">What's the approximate scope?</h3>
-            <div class="option-grid cols-2">
-              <button class="opt" data-value="small">
-                <span class="opt-icon">◻</span>
-                <span class="opt-label">Small<br /><em>Under 200 sq ft</em></span>
-              </button>
-              <button class="opt" data-value="medium">
-                <span class="opt-icon">◼</span>
-                <span class="opt-label">Medium<br /><em>200 – 600 sq ft</em></span>
-              </button>
-              <button class="opt" data-value="large">
-                <span class="opt-icon">⬛</span>
-                <span class="opt-label">Large<br /><em>600 – 1,500 sq ft</em></span>
-              </button>
-              <button class="opt" data-value="xlarge">
-                <span class="opt-icon">🏠</span>
-                <span class="opt-label">Full Home<br /><em>1,500+ sq ft</em></span>
-              </button>
-            </div>
-          </div>
-
-          <div class="est-step" id="step3">
-            <h3 class="step-q">When do you need the project completed?</h3>
-            <div class="option-grid cols-2">
-              <button class="opt" data-value="asap">
-                <span class="opt-icon">⚡</span>
-                <span class="opt-label">ASAP<br /><em>Within 4 weeks</em></span>
-              </button>
-              <button class="opt" data-value="soon">
-                <span class="opt-icon">📅</span>
-                <span class="opt-label">Soon<br /><em>1 – 3 months</em></span>
-              </button>
-              <button class="opt" data-value="planning">
-                <span class="opt-icon">🗓</span>
-                <span class="opt-label">Planning<br /><em>3 – 6 months</em></span>
-              </button>
-              <button class="opt" data-value="flexible">
-                <span class="opt-icon">🌿</span>
-                <span class="opt-label">Flexible<br /><em>No rush</em></span>
-              </button>
-            </div>
-          </div>
-
-          <div class="est-step" id="step4">
-            <h3 class="step-q">Where should we send your estimate?</h3>
-            <form id="estimatorForm" novalidate>
-              <div class="form-row">
-                <div class="fg">
-                  <label for="e-name">Full Name</label>
-                  <input type="text" id="e-name" placeholder="Jane Smith" required />
-                </div>
-                <div class="fg">
-                  <label for="e-phone">Phone</label>
-                  <input type="tel" id="e-phone" placeholder="780-555-0100" required />
-                </div>
-              </div>
-              <div class="fg">
-                <label for="e-email">Email</label>
-                <input type="email" id="e-email" placeholder="you@example.com" required />
-              </div>
-              <div class="fg">
-                <label for="e-notes">Additional details (optional)</label>
-                <textarea id="e-notes" rows="3" placeholder="Any specifics about your project..."></textarea>
-              </div>
-              <button type="submit" class="btn btn-amber btn-full btn-lg">Get My Estimate →</button>
-            </form>
-          </div>
-
-          <div class="est-step" id="stepResult">
-            <div class="result-wrap">
-              <div class="result-check">✓</div>
-              <h3>Your Estimated Range</h3>
-              <div class="result-range" id="resultRange">$12,000 – $28,000</div>
-              <p class="result-note">This is a preliminary range based on your inputs. Our team will contact you within 24 hours with a detailed, no-obligation quote.</p>
-              <div class="result-actions">
-                <a href="tel:7809072608" class="btn btn-amber btn-lg">Call Now: 780-907-2608</a>
-                <a href="#contact" class="btn btn-outline-dark">Send a Message</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="est-nav" id="estimatorNav">
-            <button class="btn btn-ghost-sm" id="prevBtn" style="visibility:hidden">← Back</button>
-            <button class="btn btn-amber" id="nextBtn" disabled>Continue →</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ═══════════════════════════════════════════
+  <!-- ════════════════════════════════
        TESTIMONIALS
-  ═══════════════════════════════════════════ -->
-  <section class="testimonials section">
-    <div class="container">
-      <div class="section-center">
-        <p class="eyebrow reveal">Client Stories</p>
-        <h2 class="section-h2 reveal">What Edmonton<br />Homeowners <em>Say</em></h2>
+  ════════════════════════════════ -->
+  <section id="testimonials">
+    <div class="section-label"><span>Client Stories</span></div>
+    <div class="testi-intro reveal">
+      <h2 class="testi-headline">What our clients<br /><em>say about us.</em></h2>
+    </div>
+    <div class="testi-grid">
+      <div class="tcard reveal">
+        <div class="tcard-stars">★★★★★</div>
+        <blockquote>"S1F1RB1 completely transformed our master bathroom. Ugur's team was professional, impeccably clean, and finished two days ahead of schedule. The marble tile work is absolutely breathtaking — we get compliments every single time someone visits."</blockquote>
+        <div class="tcard-author">
+          <div class="tcard-avatar">MR</div>
+          <div><strong>Mike &amp; Rachel T.</strong><span>Sherwood Park, AB</span></div>
+        </div>
       </div>
-      <div class="testi-grid">
-        <div class="testi-card reveal">
-          <div class="testi-stars">★★★★★</div>
-          <p>"S1F1RB1 completely transformed our master bathroom. Ugur's team was professional, spotless, and finished two days ahead of schedule. The tile work is absolutely stunning — we get compliments every time someone visits."</p>
-          <div class="testi-author">
-            <div class="testi-avatar">MR</div>
-            <div>
-              <strong>Mike &amp; Rachel T.</strong>
-              <span>Sherwood Park, AB</span>
-            </div>
-          </div>
+      <div class="tcard tcard--dark reveal">
+        <div class="tcard-stars">★★★★★</div>
+        <blockquote>"As a property developer I need a GC I can trust completely. S1F1RB1 managed a full basement development from permit acquisition through final inspection — on budget, on schedule, exceptional quality. They're the only contractor I call."</blockquote>
+        <div class="tcard-author">
+          <div class="tcard-avatar">DK</div>
+          <div><strong>David K.</strong><span>Edmonton Property Group</span></div>
         </div>
-        <div class="testi-card testi-card--featured reveal">
-          <div class="testi-stars">★★★★★</div>
-          <p>"As a property developer I need a GC I can trust completely. S1F1RB1 managed a full basement development from permit to final inspection — on budget, on time, exceptional quality. They're the only contractor I call."</p>
-          <div class="testi-author">
-            <div class="testi-avatar">DK</div>
-            <div>
-              <strong>David K.</strong>
-              <span>Edmonton Property Group</span>
-            </div>
-          </div>
-        </div>
-        <div class="testi-card reveal">
-          <div class="testi-stars">★★★★★</div>
-          <p>"The framing crew was unbelievable — fast, precise, and they caught a structural issue before it became a costly problem. I've already referred three neighbors. Highest possible recommendation."</p>
-          <div class="testi-author">
-            <div class="testi-avatar">SL</div>
-            <div>
-              <strong>Sandra L.</strong>
-              <span>St. Albert, AB</span>
-            </div>
-          </div>
+      </div>
+      <div class="tcard reveal">
+        <div class="tcard-stars">★★★★★</div>
+        <blockquote>"The framing crew was unbelievable — fast, precise, and they identified a structural discrepancy before it became a costly problem. I've referred three neighbors without hesitation. The highest possible recommendation I can give."</blockquote>
+        <div class="tcard-author">
+          <div class="tcard-avatar">SL</div>
+          <div><strong>Sandra L.</strong><span>St. Albert, AB</span></div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════
+  <!-- ════════════════════════════════
+       ESTIMATOR
+  ════════════════════════════════ -->
+  <section id="estimate">
+    <div class="section-label"><span>Project Estimator</span></div>
+    <div class="est-layout">
+      <div class="est-left reveal">
+        <h2 class="est-headline">Get a budget<br />range in<br /><em>60 seconds.</em></h2>
+        <p>No commitment. No spam. Just an honest preliminary range to help you plan with confidence.</p>
+        <div class="est-guarantees">
+          <div class="eg"><div class="eg-dot"></div>Detailed quote within 24 hours</div>
+          <div class="eg"><div class="eg-dot"></div>No-obligation consultation</div>
+          <div class="eg"><div class="eg-dot"></div>Licensed &amp; insured team</div>
+        </div>
+        <a href="tel:7809072608" class="est-callout">
+          <span class="ec-label">Prefer to speak directly?</span>
+          <span class="ec-num">780-907-2608</span>
+        </a>
+      </div>
+
+      <div class="est-card reveal">
+        <div class="est-prog">
+          <div class="ep-bar"><div class="ep-fill" id="epFill"></div></div>
+          <span id="epLabel">Step 1 of 4</span>
+        </div>
+
+        <div class="est-step active" id="s1">
+          <h3>What type of project?</h3>
+          <div class="opts-grid">
+            <button class="opt" data-v="bathroom">Bathroom Renovation</button>
+            <button class="opt" data-v="renovation">Home Renovation</button>
+            <button class="opt" data-v="framing">Framing / Structural</button>
+            <button class="opt" data-v="drywall">Drywall</button>
+            <button class="opt" data-v="tile">Tile Installation</button>
+            <button class="opt" data-v="concrete">Concrete / Foundation</button>
+            <button class="opt" data-v="cabinetry">Custom Cabinetry</button>
+            <button class="opt" data-v="management">Project Management</button>
+          </div>
+        </div>
+
+        <div class="est-step" id="s2">
+          <h3>Approximate scope?</h3>
+          <div class="opts-grid opts-grid--2">
+            <button class="opt" data-v="small"><strong>Small</strong><em>Under 200 sq ft</em></button>
+            <button class="opt" data-v="medium"><strong>Medium</strong><em>200 – 600 sq ft</em></button>
+            <button class="opt" data-v="large"><strong>Large</strong><em>600 – 1,500 sq ft</em></button>
+            <button class="opt" data-v="xlarge"><strong>Full Home</strong><em>1,500+ sq ft</em></button>
+          </div>
+        </div>
+
+        <div class="est-step" id="s3">
+          <h3>Desired timeline?</h3>
+          <div class="opts-grid opts-grid--2">
+            <button class="opt" data-v="asap"><strong>ASAP</strong><em>Within 4 weeks</em></button>
+            <button class="opt" data-v="soon"><strong>Soon</strong><em>1 – 3 months</em></button>
+            <button class="opt" data-v="planning"><strong>Planning</strong><em>3 – 6 months</em></button>
+            <button class="opt" data-v="flexible"><strong>Flexible</strong><em>No rush</em></button>
+          </div>
+        </div>
+
+        <div class="est-step" id="s4">
+          <h3>Where should we send your estimate?</h3>
+          <form id="estForm" novalidate>
+            <div class="frow">
+              <div class="fg"><label>Full Name</label><input type="text" placeholder="Jane Smith" required /></div>
+              <div class="fg"><label>Phone</label><input type="tel" placeholder="780-555-0100" required /></div>
+            </div>
+            <div class="fg"><label>Email</label><input type="email" placeholder="you@example.com" required /></div>
+            <div class="fg"><label>Additional details (optional)</label><textarea rows="3" placeholder="Tell us anything specific about your project..."></textarea></div>
+            <button type="submit" class="btn-gold btn-full">View My Estimate Range →</button>
+          </form>
+        </div>
+
+        <div class="est-step" id="sResult">
+          <div class="result-block">
+            <div class="rb-check">✓</div>
+            <p class="rb-label">Your Estimated Range</p>
+            <div class="rb-range" id="rbRange">—</div>
+            <p class="rb-note">Preliminary range based on your inputs. Our team will reach out within 24 hours with a detailed, no-obligation quote specific to your project.</p>
+            <div class="rb-actions">
+              <a href="tel:7809072608" class="btn-gold">Call Now: 780-907-2608</a>
+              <a href="#contact" class="btn-ghost-light">Send a Message</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="est-nav" id="estNav">
+          <button class="btn-back" id="estPrev" style="visibility:hidden">← Back</button>
+          <button class="btn-next" id="estNext" disabled>Continue →</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════
        CONTACT
-  ═══════════════════════════════════════════ -->
-  <section class="contact section" id="contact">
-    <div class="container">
-      <div class="contact-grid">
+  ════════════════════════════════ -->
+  <section id="contact">
+    <div class="contact-split">
 
-        <div class="contact-left reveal">
-          <p class="eyebrow" style="color:var(--amber)">Let's Build Together</p>
-          <h2 class="section-h2" style="color:#fff">Ready to Start<br /><em>Your Project?</em></h2>
-          <p class="body-lg" style="color:rgba(255,255,255,0.6)">Whether you're planning a bathroom renovation or managing a full commercial build, our team is ready. Contact us for a free, no-obligation consultation.</p>
-
-          <div class="contact-details">
-            <a href="tel:7809072608" class="cd-item">
-              <div class="cd-icon">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.72A2 2 0 012.18 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.29 6.29l1.28-1.28a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-              </div>
-              <div>
-                <strong>Phone</strong>
-                <span>780-907-2608</span>
-              </div>
-            </a>
-            <a href="mailto:ugur@S1F1RB1CONSTRUCTION.ca" class="cd-item">
-              <div class="cd-icon">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-              </div>
-              <div>
-                <strong>General Inquiries</strong>
-                <span>ugur@S1F1RB1CONSTRUCTION.ca</span>
-              </div>
-            </a>
-            <a href="mailto:help@S1F1RB1CONSTRUCTION.ca" class="cd-item">
-              <div class="cd-icon">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>
-              </div>
-              <div>
-                <strong>Support</strong>
-                <span>help@S1F1RB1CONSTRUCTION.ca</span>
-              </div>
-            </a>
-            <div class="cd-item">
-              <div class="cd-icon">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              </div>
-              <div>
-                <strong>Location</strong>
-                <span>Edmonton, Alberta, Canada</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="contact-img reveal">
-            <img src="https://images.unsplash.com/photo-1590725121839-892b458a74fe?w=800&q=80&fit=crop&crop=center" alt="S1F1RB1 Construction team meeting" loading="lazy" />
+      <div class="contact-left">
+        <div class="contact-left-inner reveal">
+          <p class="eyebrow-gold">Let's Build Together</p>
+          <h2 class="contact-headline">Ready to start<br /><em>your project?</em></h2>
+          <p class="contact-sub">Every great build starts with a conversation. Reach out — we respond within one business day.</p>
+          <div class="cinfo">
+            <a href="tel:7809072608" class="ci"><span>Phone</span><strong>780-907-2608</strong></a>
+            <a href="mailto:ugur@S1F1RB1CONSTRUCTION.ca" class="ci"><span>Email</span><strong>ugur@S1F1RB1CONSTRUCTION.ca</strong></a>
+            <a href="mailto:help@S1F1RB1CONSTRUCTION.ca" class="ci"><span>Support</span><strong>help@S1F1RB1CONSTRUCTION.ca</strong></a>
+            <div class="ci"><span>Location</span><strong>Edmonton, Alberta, Canada</strong></div>
+            <div class="ci"><span>Hours</span><strong>Mon–Fri 7am–6pm · Sat 8am–4pm</strong></div>
           </div>
         </div>
-
-        <div class="contact-right reveal">
-          <div class="contact-form-card">
-            <h3>Send Us a Message</h3>
-            <form id="contactForm" novalidate>
-              <div class="form-row">
-                <div class="fg">
-                  <label for="c-name">Name</label>
-                  <input type="text" id="c-name" placeholder="Your name" required />
-                </div>
-                <div class="fg">
-                  <label for="c-phone">Phone</label>
-                  <input type="tel" id="c-phone" placeholder="780-555-0100" />
-                </div>
-              </div>
-              <div class="fg">
-                <label for="c-email">Email</label>
-                <input type="email" id="c-email" placeholder="you@example.com" required />
-              </div>
-              <div class="fg">
-                <label for="c-service">Service Needed</label>
-                <select id="c-service">
-                  <option value="">Select a service...</option>
-                  <option>Home Renovation</option>
-                  <option>Bathroom Renovation</option>
-                  <option>Concrete &amp; Foundation</option>
-                  <option>Residential Framing</option>
-                  <option>Drywall Installation</option>
-                  <option>Tile Installation</option>
-                  <option>Custom Cabinetry</option>
-                  <option>General Contracting</option>
-                  <option>Other</option>
-                </select>
-              </div>
-              <div class="fg">
-                <label for="c-message">Message</label>
-                <textarea id="c-message" rows="5" placeholder="Tell us about your project, timeline, and budget range..."></textarea>
-              </div>
-              <button type="submit" class="btn btn-amber btn-full btn-lg">Send Message →</button>
-            </form>
-          </div>
+        <div class="contact-img-accent">
+          <img src="https://images.unsplash.com/photo-1615873968403-89e068629265?w=800&q=85&fit=crop" alt="Precision tile installation" loading="lazy" />
         </div>
-
       </div>
+
+      <div class="contact-right reveal">
+        <form id="contactForm" novalidate>
+          <div class="frow">
+            <div class="fg"><label>Name</label><input type="text" id="cn" placeholder="Your full name" required /></div>
+            <div class="fg"><label>Phone</label><input type="tel" id="cp" placeholder="780-555-0100" /></div>
+          </div>
+          <div class="fg"><label>Email</label><input type="email" id="ce" placeholder="you@example.com" required /></div>
+          <div class="fg">
+            <label>Service Needed</label>
+            <select id="cs">
+              <option value="">Select a service...</option>
+              <option>Home Renovation</option>
+              <option>Bathroom Renovation</option>
+              <option>Concrete &amp; Foundation</option>
+              <option>Residential Framing</option>
+              <option>Drywall Installation</option>
+              <option>Tile Installation</option>
+              <option>Custom Cabinetry</option>
+              <option>General Contracting</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="fg"><label>Message</label><textarea id="cm" rows="5" placeholder="Describe your project, timeline, and any relevant details..."></textarea></div>
+          <button type="submit" class="btn-gold btn-full">Send Message →</button>
+        </form>
+      </div>
+
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════
+  <!-- ════════════════════════════════
        FOOTER
-  ═══════════════════════════════════════════ -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-top">
-        <div class="footer-brand">
-          <a href="#top" class="nav-logo">S1F1RB1<span class="logo-dot">.</span></a>
-          <p>Building excellence across Western Canada since 2004. Licensed, insured, and committed to unmatched craftsmanship on every project.</p>
-          <div class="footer-badges">
-            <span>Licensed GC</span>
-            <span>WCB Insured</span>
-            <span>5-Star Rated</span>
-          </div>
-        </div>
-        <div class="footer-col">
-          <h4>Services</h4>
-          <ul>
-            <li><a href="#services">Home Renovation</a></li>
-            <li><a href="#services">Bathroom Renovation</a></li>
-            <li><a href="#services">Concrete &amp; Foundation</a></li>
-            <li><a href="#services">Residential Framing</a></li>
-            <li><a href="#services">Drywall</a></li>
-            <li><a href="#services">Tile Installation</a></li>
-            <li><a href="#services">Cabinetry</a></li>
-            <li><a href="#services">Project Management</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>Company</h4>
-          <ul>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#portfolio">Projects</a></li>
-            <li><a href="#estimator">Get Estimate</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>Contact</h4>
-          <p><a href="tel:7809072608">780-907-2608</a></p>
-          <p><a href="mailto:ugur@S1F1RB1CONSTRUCTION.ca">ugur@S1F1RB1CONSTRUCTION.ca</a></p>
-          <p>Edmonton, Alberta, Canada</p>
-          <p class="mt-1" style="color:rgba(255,255,255,0.3);font-size:0.8rem">Mon – Fri: 7am – 6pm<br />Sat: 8am – 4pm</p>
+  ════════════════════════════════ -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <span class="logo">S1F1RB1<sup>©</sup></span>
+        <p>Building excellence across Western Canada since 2004. Licensed, insured, and committed to premium craftsmanship on every project.</p>
+        <div class="footer-certs">
+          <span>Licensed GC</span>
+          <span>WCB Insured</span>
+          <span>5-Star Rated</span>
         </div>
       </div>
-      <div class="footer-bottom">
-        <p>© 2026 S1F1RB1 Construction. All rights reserved.</p>
-        <p><a href="mailto:help@S1F1RB1CONSTRUCTION.ca">help@S1F1RB1CONSTRUCTION.ca</a> · <a href="https://S1F1RB1CONSTRUCTION.ca">S1F1RB1CONSTRUCTION.ca</a></p>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">Home Renovation</a></li>
+          <li><a href="#services">Bathroom Renovation</a></li>
+          <li><a href="#services">Concrete &amp; Foundation</a></li>
+          <li><a href="#services">Residential Framing</a></li>
+          <li><a href="#services">Drywall</a></li>
+          <li><a href="#services">Tile Installation</a></li>
+          <li><a href="#services">Cabinetry</a></li>
+          <li><a href="#services">Project Management</a></li>
+        </ul>
       </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#work">Projects</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#estimate">Get Estimate</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p><a href="tel:7809072608">780-907-2608</a></p>
+        <p><a href="mailto:ugur@S1F1RB1CONSTRUCTION.ca">ugur@S1F1RB1CONSTRUCTION.ca</a></p>
+        <p style="margin-top:0.25rem;color:rgba(255,255,255,0.28)">Edmonton, Alberta, Canada</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 S1F1RB1 Construction. All rights reserved.</p>
+      <p><a href="https://S1F1RB1CONSTRUCTION.ca">S1F1RB1CONSTRUCTION.ca</a></p>
     </div>
   </footer>
 
